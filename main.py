@@ -106,7 +106,8 @@ class MIDNI:
         print("[%s] has been executed completely ..." % self.gene_file)
 
 
-folder = r"C:\caocao\gnw-master\Extra study\size 500\hybrid\values\*.txt"
+folder = r"C:\caocao\gnw-master\Extra study\size 600\hybrid\values\*.txt"
+#folder = r"C:\caocao\gnw-master\Extra study\size 500\hybrid\values\*.txt"
 #folder = r"C:\caocao\Python Project\ABC\generated_data\size300\hybrid\values\*.txt"
 # folder = "C:\caocao\gnw-master\Generated\size10_noise0%\Discritized/G_size10_noise0%_01.txt"
 # for i in range(10, 210, 10):
