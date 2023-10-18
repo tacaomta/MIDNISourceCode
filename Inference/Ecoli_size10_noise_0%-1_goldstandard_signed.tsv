@@ -1,0 +1,16 @@
+bolA	ampC	+
+csgD	csgF	+
+csgD	csgG	+
+csgD	csgE	+
+ompR	csgD	+
+ompR	csgF	+
+ompR	csgG	+
+ompR	omrA	+
+ompR	ompF	+
+ompR	bolA	-
+ompR	csgE	+
+rstA	ompF	-
+rstA	csgD	-
+rstA	csgE	-
+rstA	csgF	-
+rstA	csgG	-

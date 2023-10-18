@@ -287,7 +287,8 @@ class StructuralAnalysis:
 
 # Ví dụ khi phân tích dữ liệu Ecoli
 
-methods = ['dbn','micrat', 'midni']
+#methods = ['dbn', 'micrat', 'midni']
+methods = ['mibni']
 
 for method in methods:
     print("======================= {} =======================".format(method))
@@ -299,10 +300,10 @@ for method in methods:
         else:
             index_st = str(index)
         struct = StructuralAnalysis(
-            r"C:\caocao\gnw-master\Extra study\size 500\hybrid\values\{method_name}_output\struct\Ecoli_500_{index_st}_{method_name}_prediction.txt".format(
+            r"C:\caocao\gnw-master\Extra study\size 600\k_mean2\values\{method_name}_output\struct\Ecoli_600_{index_st}_k2_{method_name}_prediction.txt".format(
                 index_st=index_st, method_name=method),
-            'C:\caocao\gnw-master\Extra study\size 500\original\Ecoli_500-{}_goldstandard.tsv'.format(index), 500,
-            header_path='C:\caocao\gnw-master\Extra study\size 500\original\Ecoli_500-{}_dream4_timeseries.tsv'.format(
+            'C:\caocao\gnw-master\Extra study\size 600\original\Ecoli_600-{}_goldstandard.tsv'.format(index), 600,
+            header_path='C:\caocao\gnw-master\Extra study\size 600\original\Ecoli_600-{}_dream4_timeseries.tsv'.format(
                 index)
         )
         struct.none_sign_analysis_ecoli(detail=True)
